@@ -1,0 +1,22 @@
+{
+  "name": "vanilla-autogrow",
+  "version": "1.0.0",
+  "description": "Automatically grow and shrink textareas to fit their content as you type.",
+  "main": "vanilla-autogrow",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lekoala/vanilla-autogrow"
+  },
+  "keywords": [
+    "DOM",
+    "textarea",
+    "autogrow",
+    "vanilla",
+    "es6"
+  ],
+  "author": "LeKoala",
+  "license": "MIT"
+}
