@@ -4,16 +4,18 @@ class Autogrow {
    * @param {string} selector
    */
   constructor(selector = "textarea") {
-    Array.prototype.forEach.call(document.querySelectorAll(selector), (el, i) => {
+    let list = document.querySelectorAll(selector);
+    for (let i = 0; i < list.length; i++) {
+      var el = list[i];
       el.addEventListener("input", (event) => {
         this.autoExpand(event.target);
       });
-    });
+    }
   }
 
   /**
    * Auto expand a field to fit its content
-   * @param {string} field
+   * @param {HTMLTextAreaElement} field
    */
   autoExpand(field) {
     // reset height
