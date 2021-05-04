@@ -13,8 +13,15 @@ No jQuery or framework needed.
 
 ```js
 import Autogrow from "./autogrow.js";
+// or import from cdn
+// import Autogrow from "https://cdn.jsdelivr.net/npm/vanilla-autogrow@1.0.0/autogrow.min.js";
 var inst = new Autogrow();
 
 // or pass a selector
 var inst = new Autogrow('textarea.autogrow');
 ```
+
+## Demo
+
+https://codepen.io/lekoalabe/pen/gOmYaxm
+
