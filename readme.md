@@ -21,6 +21,13 @@ var inst = new Autogrow();
 var inst = new Autogrow('textarea.autogrow');
 ```
 
+## Custom element
+
+```html
+<script type="module" src="./autogrow.element.js"></script>
+<textarea is="autogrow-textarea" class="form-control"></textarea>
+```
+
 ## Demo
 
 https://codepen.io/lekoalabe/pen/gOmYaxm
